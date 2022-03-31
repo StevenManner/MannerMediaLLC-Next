@@ -181,8 +181,7 @@ const Home = (props) => {
           <div className="container3">
             <div className="feature-card3">
               <img
-                alt="image"
-                src="3eb4873d-5bfa-41ed-89f9-bee441c318ae"
+                src="/playground_assets/pictures-optimization-200h.png"
                 className="image06"
               />
               <h2 className="text16">Web Design</h2>
@@ -197,7 +196,7 @@ const Home = (props) => {
             <div className="feature-card4">
               <img
                 alt="image"
-                src="e275d7d6-d00f-4a16-9114-68daa8e9467d"
+                src="/playground_assets/seo-training-200h.png"
                 className="image07"
               />
               <h2 className="text19">Consultation</h2>
@@ -288,36 +287,22 @@ const Home = (props) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </span>
-            <span className="text29 section-Text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-              velit, sed quia non numquam eius modi tempora incidunt ut labore
-              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-              veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-              vel eum iure reprehenderit qui in ea voluptate velit esse quam
-              nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-              voluptas nulla pariatur?
-            </span>
           </div>
           <button className="cta-btn4 button anchor">START BUILDING</button>
         </div>
         <div className="section-separator1"></div>
         <div id="testimonials" className="testimonials">
-          <h2 className="text30 section-Heading">
+          <h2 className="text29 section-Heading">
             What are they saying about us?
           </h2>
           <div className="cards-container">
             <div className="testimonial-card">
               <div className="card-heading">
                 <div className="name-and-position">
-                  <span className="card-Heading">Will Evans</span>
-                  <span className="position card-Text">Position</span>
+                  <span className="card-Heading">Michael H.</span>
+                  <span className="position card-Text">
+                    Local teacher + Entrepreneur
+                  </span>
                 </div>
                 <div className="stars-container">
                   <svg viewBox="0 0 950.8571428571428 1024" className="icon10">
@@ -337,17 +322,20 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="text31 card-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                nisi. Nulla quis sem at nibh elementum imperdiet.
+              <span className="text30 card-Text">
+                Kai has supported my business by providing creative marketing
+                solutions and effective digital advertising. He’s quick to
+                execute on strategies identified to get results. Thanks for
+                expanding our reach and helping us to acquire new customers!
               </span>
             </div>
             <div className="testimonial-card1">
               <div className="card-heading1">
                 <div className="name-and-position1">
-                  <span className="card-Heading">Marie Alba</span>
-                  <span className="position1 card-Text">Position</span>
+                  <span className="card-Heading">Ryan Neal</span>
+                  <span className="position1 card-Text">
+                    Owner @ Escape Hilo
+                  </span>
                 </div>
                 <div className="stars-container1">
                   <svg viewBox="0 0 950.8571428571428 1024" className="icon20">
@@ -367,10 +355,10 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="text32 card-Text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
-                nisi. Nulla quis sem at nibh elementum imperdiet.
+              <span className="text31 card-Text">
+                As a local business owner, working with Manner Media has been
+                incredible! Great advertising and services. 10/10 Highly
+                recommend
               </span>
             </div>
             <div className="testimonial-card2">
@@ -397,7 +385,7 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <span className="text33 card-Text">
+              <span className="text32 card-Text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
                 nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -407,7 +395,7 @@ const Home = (props) => {
         </div>
         <div id="contact" className="contact">
           <div className="content-container">
-            <h2 className="text34 section-Heading">
+            <h2 className="text33 section-Heading">
               This is how to contact me
             </h2>
             <a
@@ -432,25 +420,31 @@ const Home = (props) => {
             <div className="links-container">
               <div className="container5">
                 <div className="company-container">
-                  <span className="text35">Company</span>
-                  <span className="text36">About Us</span>
-                  <span className="text37">Features</span>
-                  <span className="text38">Start now</span>
-                  <span>My story</span>
+                  <span className="text34">Company</span>
+                  <a href="#about-us" className="link10">
+                    About Us
+                  </a>
+                  <a href="#features" className="link11">
+                    Features
+                  </a>
+                  <a href="#services" className="link12">
+                    Start now
+                  </a>
+                  <a href="#story" className="link13">
+                    My story
+                  </a>
                 </div>
               </div>
               <div className="container6">
                 <div className="contact1">
-                  <span className="text40">Contact Us</span>
-                  <span className="text41">
+                  <span className="text35">
                     <span>Manner.Media.Biz</span>
                     <br></br>
                     <span>@gmail.com</span>
                   </span>
-                  <span>+123 (4567) 890</span>
                 </div>
                 <div className="socials">
-                  <span className="text46">Follow Us</span>
+                  <span className="text39">Follow Us</span>
                   <div className="icon-group">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -476,9 +470,9 @@ const Home = (props) => {
             </div>
           </div>
           <div className="separator"></div>
-          <span className="text47">
-            <span>© 2021 Manner Media LL, All Rights Reserved.</span>
-            <span className="text49"></span>
+          <span className="text40">
+            <span>© 2021 Manner Media LLC, All Rights Reserved.</span>
+            <span className="text42"></span>
             <span></span>
           </span>
         </footer>
@@ -711,7 +705,6 @@ const Home = (props) => {
           .cta-btn2 {
             color: var(--dl-color-gray-white);
             align-self: stretch;
-            text-align: center;
             padding-top: var(--dl-space-space-doubleunit);
             border-width: 0px;
             border-radius: 34px;
@@ -1045,9 +1038,6 @@ const Home = (props) => {
           .text28 {
             color: var(--dl-color-gray-500);
           }
-          .text29 {
-            color: var(--dl-color-gray-500);
-          }
           .cta-btn4 {
             color: var(--dl-color-gray-white);
             width: 80%;
@@ -1080,7 +1070,7 @@ const Home = (props) => {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
           }
-          .text30 {
+          .text29 {
             margin-bottom: var(--dl-space-space-fiveunits);
           }
           .cards-container {
@@ -1168,7 +1158,7 @@ const Home = (props) => {
             height: 24px;
             margin-right: var(--dl-space-space-unit);
           }
-          .text31 {
+          .text30 {
             color: var(--dl-color-gray-500);
             text-align: left;
           }
@@ -1247,7 +1237,7 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
-          .text32 {
+          .text31 {
             color: var(--dl-color-gray-500);
             text-align: left;
           }
@@ -1326,7 +1316,7 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
-          .text33 {
+          .text32 {
             color: var(--dl-color-gray-500);
             text-align: left;
           }
@@ -1355,7 +1345,7 @@ const Home = (props) => {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .text34 {
+          .text33 {
             margin-top: var(--dl-space-space-fiveunits);
             text-align: center;
             margin-bottom: var(--dl-space-space-fiveunits);
@@ -1416,18 +1406,24 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .text35 {
+          .text34 {
             font-weight: 700;
             margin-bottom: 24px;
           }
-          .text36 {
+          .link10 {
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .text37 {
+          .link11 {
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .text38 {
+          .link12 {
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .link13 {
+            text-decoration: none;
           }
           .container6 {
             display: flex;
@@ -1442,11 +1438,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .text40 {
-            font-weight: 700;
-            margin-bottom: 24px;
-          }
-          .text41 {
+          .text35 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .socials {
@@ -1455,7 +1447,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .text46 {
+          .text39 {
             font-weight: 700;
             margin-bottom: 24px;
           }
@@ -1486,10 +1478,10 @@ const Home = (props) => {
             margin-bottom: 32px;
             background-color: var(--dl-color-gray-900);
           }
-          .text47 {
+          .text40 {
             align-self: center;
           }
-          .text49 {
+          .text42 {
             text-align: left;
           }
           @media (max-width: 991px) {
@@ -1556,6 +1548,9 @@ const Home = (props) => {
               flex-direction: row;
               justify-content: center;
             }
+            .cta-btn {
+              display: none;
+            }
             .burger-menu {
               display: flex;
               padding: var(--dl-space-space-halfunit);
@@ -1597,7 +1592,7 @@ const Home = (props) => {
             .secondary-text {
               text-align: center;
             }
-            .text30 {
+            .text29 {
               text-align: center;
             }
             .cards-container {
@@ -1666,7 +1661,15 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-doubleunit);
             }
             .hero-text-container {
-              width: 100%;
+              width: 374px;
+              align-self: center;
+              align-items: center;
+              margin-left: 0px;
+              justify-content: center;
+            }
+            .cta-btn2 {
+              align-self: center;
+              text-align: center;
             }
             .image02 {
               width: 100%;
@@ -1692,7 +1695,10 @@ const Home = (props) => {
             .secondary-text {
               text-align: center;
             }
-            .text30 {
+            .cta-btn4 {
+              align-self: center;
+            }
+            .text29 {
               text-align: center;
             }
             .testimonial-card {
@@ -1709,7 +1715,7 @@ const Home = (props) => {
               padding-left: 0px;
               padding-right: 0px;
             }
-            .text34 {
+            .text33 {
               text-align: center;
             }
             .footer {
@@ -1738,7 +1744,7 @@ const Home = (props) => {
               align-items: flex-start;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .text47 {
+            .text40 {
               text-align: center;
             }
           }
